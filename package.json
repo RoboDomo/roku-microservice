@@ -1,0 +1,33 @@
+{
+  "name": "roku-microservice",
+  "version": "1.0.0",
+  "description": "Microservice to monitor and control Roku devices",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robodomo/roku-microservice.git"
+  },
+  "keywords": [
+    "RoboDomo",
+    "Microservice"
+  ],
+  "author": "Michael Schwartz <mykesx@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robodomo/roku-microservice/issues"
+  },
+  "homepage": "https://github.com/robodomo/roku-microservice#readme",
+  "dependencies": {
+    "debug": "^4.2.0",
+    "microservice-core": "github:robodomo/microservice-core",
+    "nodemon": "^2.0.6",
+    "roku-client": "^4.2.0"
+  }
+}
